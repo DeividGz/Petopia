@@ -1,0 +1,251 @@
+:root {
+  --primary-color: #f28705;
+  --primary-color-hover: #d0973d;
+  --secondary-color: #022859;
+  --secondary-color-hover: #1e58a3;
+  --tertiary-color: #734a27;
+  --background-color: #f3ecdf;
+  --light-color: #ffffff;
+  --transition: 0.5s ease;
+  --radius: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+nav a {
+  color: var(--tertiary-color);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+nav a:hover {
+  color: var(--primary-color-hover);
+}
+
+nav a.active {
+  background-color: var(--tertiary-color);
+  color: var(--light-color);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+}
+
+.box {
+  margin-top: 4.5rem;
+}
+
+.form {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 1px solid var(--tertiary-color);
+  border-radius: var(--radius);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+fieldset legend,
+h2 {
+  font-size: 1rem;
+  color: var(--primary-color);
+  padding-inline: 0.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+fieldset p {
+  color: var(--tertiary-color);
+}
+
+.cadastro {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registros {
+  margin-top: 1rem;
+}
+
+.registro {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid var(--tertiary-color);
+  padding: 1rem;
+  border-radius: var(--radius);
+}
+
+.insert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.insert div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.insert input {
+  width: 200px;
+}
+
+.insert button {
+  width: 150px;
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal_transportadora {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.button_cancel {
+  width: 12%;
+}
+
+.linha {
+  width: 95%;
+  height: 1px;
+  background-color: var(--primary-color);
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  align-self: center;
+}
+
+.registro_transportadora {
+  width: 30%;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  gap: 0.25rem;
+  flex-direction: column;
+  border: 1px solid var(--tertiary-color);
+  padding: 1rem;
+  border-radius: var(--radius);
+  margin: 0.5rem auto;
+}
+
+.registro_transportadora div {
+  align-self: flex-end;
+}
+
+.registro_transportadora button {
+  all: initial;
+  cursor: pointer;
+}
+
+.transportadora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.transportadora .fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.transportadora .fields div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input_edit_t .fields div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input_edit_t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fields div input {
+  width: 300px;
+}
+
+form.transportadora button {
+  width: 50%;
+}
+
+.transportadora_list {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.listagem_vazia {
+  color: var(--tertiary-color);
+  align-self: center;
+}
+
+.total_content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: var(--radius);
+}

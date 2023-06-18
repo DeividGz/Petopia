@@ -1,0 +1,59 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slct {
+  width: 400px;
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+table {
+  margin-bottom: 2rem;
+}
+
+form {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form input {
+  background-color: #e2e2e2;
+  border: none;
+}
+
+.finalizado {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.finalizado h1, .finalizado h2 {
+  text-align: center;
+}
+
+.pay {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.finalizado button {
+  margin-top: 1rem;
+  width: 50%;
+}

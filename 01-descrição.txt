@@ -1,0 +1,12 @@
+## E-commerce php ##
+
+Integrantes:
+  - Deivid Gomes Zanotti
+  - Mayara de Andrade Ribeiro Leite
+  - Micael Miranda Inácio
+
+Criar o banco de dados com nome 'petopia'
+Importar arquivo 'script.sql' que está na pasta 'database'
+
+Para entrar no módulo de administrador,
+basta digitar '/admin' na url

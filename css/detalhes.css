@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #f28705;
+  --primary-color-hover: #d0973d;
+  --secondary-color: #022859;
+  --secondary-color-hover: #1e58a3;
+  --background-color: #f3ecdf;
+  --light-color: #ffffff;
+  --transition: 0.5s ease;
+  --radius: 0.5rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.imgs {
+  width: 50%;
+  border-radius: var(--radius);
+}
+
+.info {
+  width: 50%;
+}
+
+.info p {
+  margin-top: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}

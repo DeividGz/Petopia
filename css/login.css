@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #f28705;
+  --primary-color-hover: #d0973d;
+  --secondary-color: #022859;
+  --secondary-color-hover: #1e58a3;
+  --background-color: #f3ecdf;
+  --light-color: #ffffff;
+  --transition: 0.5s ease;
+  --radius: 0.5rem;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.back {
+  align-self: baseline;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--light-color);
+  border: 1px solid var(--primary-color);
+  border-radius: var(--radius);
+}
+
+.bird {
+  height: 500px;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 400px;
+  max-width: 90%;
+  background-color: var(--light-color);
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  width: 100%;
+}
+.check input {
+  width: 10%;
+}
+.check label {
+  width: 90%;
+}

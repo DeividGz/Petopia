@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #f28705;
+  --primary-color-hover: #d0973d;
+  --secondary-color: #022859;
+  --secondary-color-hover: #1e58a3;
+  --background-color: #f3ecdf;
+  --light-color: #ffffff;
+  --transition: 0.5s ease;
+  --radius: 0.5rem;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+td,
+th {
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even),
+thead tr {
+  background-color: #efd2af;
+}
+
+th, td {
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #f28705;
+  --primary-color-hover: #d0973d;
+  --secondary-color: #022859;
+  --secondary-color-hover: #1e58a3;
+  --tertiary-color: #734a27;
+  --background-color: #f3ecdf;
+  --light-color: #ffffff;
+  --transition: 0.5s ease;
+  --radius: 0.5rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+}
+
+nav a:hover {
+  background-color: #efce989b;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
